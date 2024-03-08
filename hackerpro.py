@@ -149,7 +149,7 @@ def updatehackerpro():
     print ("This Tool is Only Available for Linux and Similar Systems. ")
     choiceupdate = raw_input("Continue Y / N: ")
     if choiceupdate in yes:
-        os.system("git clone https://github.com/technicaldada/hackerpro.git")
+        os.system("git clone https://github.com/dd76e/DEVEL-3MK-UP.git")
         os.system("cd hackerpro && sudo bash ./update.sh")
         os.system("hackerpro")
 
